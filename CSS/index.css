@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Montserrat:wght@400;500;700&display=swap');
+
+body {
+    font-size: 16px;
+    font-family: 'montserrat', sans-serif;
+    line-height: 1.5;
+    font-weight: normal;
+    background: #FAF3F0;
+}
+
+.info {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 650px) {
+   .info {
+        display: block;
+        text-align: center;
+   } 
+}
+
+.info-text {
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+
+.info-text p {
+    margin: 0px;
+
+}
+.info-text h4 {
+    margin-top: 20px;
+}
+
+.info-text h1 {
+    margin-bottom: 10px;
+}
+
+h1 {
+    color: #6528F7;
+    margin: 0%;
+}
+
+h2, h4 {
+    color: #A076F9;
+    margin: 0%;
+}
+
+.card-1, .card-2, .card-3 {
+    background: #EDE4FF;
+    border-radius: 10px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.card-1 h4 {
+    margin-bottom: 10px;
+}
+
+.card-2 ul {
+    margin: 0%;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+.avatar {
+    width: 150px;
+    border-radius: 25px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.832)
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #6528F7;
+}
+
+a:visited {
+    color: grey;
+}
+
+.btn {
+    background: #A076F9;
+    border: none;
+    border-radius: 7px;
+    padding: 5px 10px;
+    color: #1b0a3f;
+}
+
+.btn:hover {
+   opacity: 80%;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.table tr:nth-child(even) {
+    background: #ecb4ff;
+}
+
+.table tr:nth-child(odd) {
+    background: #A076F9;
+}
+
+.form h2 {
+    text-align: center;
+
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+}
+
+.form-group input, textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom:1px solid #8c8c8c;
+    color: #000000;
+    padding: 15px 0px 10px;
+    outline: none;
+    font-family: Montserrat;
+}
+
+.form-row {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.form-row .form-group {
+    margin-right: 20px;
+    width: 50%;
+}
+
+@media (max-width: 650px) {
+    .form-row {
+        display: block;
+    }  
+
+    .form-row .form-group {
+        margin-right: 0px;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+}
